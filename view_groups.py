@@ -122,4 +122,15 @@ groups = [
             },
         ],
     },
+        {
+        "title": "Lakebase",
+        "views": [
+            {
+                "label": "Database Operations",
+                "help": "Perform transactional operations on the data lake.",
+                "page": "views/database_operations.py",
+                "icon": ":material/database:",
+            },
+        ],
+    },
 ]
